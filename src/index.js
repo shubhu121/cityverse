@@ -14,7 +14,8 @@ import {
   PointLight,
   Audio,
   AudioLoader,
-  AudioListener
+  AudioListener,
+  Raycaster
 } from 'three';
 
 import { PointerLockControls }  from 'three/examples/jsm/controls/PointerLockControls.js';
@@ -27,6 +28,8 @@ import { FXAAShader } from 'three/examples/jsm/shaders/FXAAShader.js';
 
 import { AssetManager } from './classes/AssetManager.js';
 import { Shaders } from './classes/Shaders.js';
+import { ProjectManager } from './classes/ProjectManager.js';
+import { ProximityDetector } from './classes/ProximityDetector.js';
 
 import { Player } from './classes/Player.js';
 import { PlayerCar } from './classes/PlayerCar.js';
@@ -88,13 +91,26 @@ class Game {
 
     this.collider = new Collider();
 
+    // Interactive objects for click detection
+    this.interactiveObjects = [];
+    this.raycaster = null;
+    this.mouse = { x: 0, y: 0 };
+
+    // Proximity detector for nearby projects
+    this.proximityDetector = null;
+
   }
 
-  load() {
+  async load() {
 
     this.assets = new AssetManager();
     this.assets.setPath('assets/');
     this.assets.load();
+
+    // Load Monad projects - wait for it to complete
+    this.projectManager = new ProjectManager();
+    await this.projectManager.load();
+    console.log('Game: ProjectManager ready');
 
   }
 
@@ -213,9 +229,9 @@ class Game {
     // bloom
     const bloomPass = new UnrealBloomPass( new Vector2( window.innerWidth, window.innerHeight ), 0, 0, 0 );
     if (this.environment.name=='night') {
-      bloomPass.threshold = 0.0;
-      bloomPass.strength = 7.0;
-      bloomPass.radius = 1.0;
+      bloomPass.threshold = 0.8; // Very minimal bloom - only brightest lights
+      bloomPass.strength = 0.5; // Almost no glow - realistic city night
+      bloomPass.radius = 0.4;
     }
     else if (this.environment.name=='day') {
       bloomPass.threshold = 0;
@@ -305,9 +321,18 @@ class Game {
     /*----- event listeners -----*/
 
     window.addEventListener( 'resize', () => this.onWindowResize(), false );
+    window.addEventListener( 'click', (event) => this.onClick(event), false );
+    window.addEventListener( 'mousemove', (event) => this.onMouseMove(event), false );
 
     this.controls.addEventListener( 'lock', () => this.onControlsLock(), false );
     this.controls.addEventListener( 'unlock', () => this.onControlsUnlock(), false );
+
+    // Initialize raycaster for project billboard interaction
+    this.raycaster = new Raycaster();
+
+    // Initialize proximity detector
+    this.proximityDetector = new ProximityDetector();
+    console.log('Game: Proximity detector initialized');
 
   }
 
@@ -452,6 +477,11 @@ class Game {
     if (this.generatorCityLights!==null) this.generatorCityLights.update();
     this.generatorTraffic.update();
 
+    // Update proximity detector with player position
+    if (this.proximityDetector && this.player && this.player.body) {
+      this.proximityDetector.update(this.player.body.position);
+    }
+
     // render
 
     this.composer.render();
@@ -473,20 +503,20 @@ class Game {
         windowLights: true,
         spotLights: true,
         fog: {
-          color: 0x12122a,
+          color: 0x0a0e1a, // Dark blue-grey fog - realistic night
           start: 0,
           end: 2700
         },
         sun: {
-          color: 0x8b79ff,
-          intensity: 0.1,
+          color: 0xc0d0ff, // Cool moonlight - natural night lighting
+          intensity: 0.05, // Very subtle moonlight
           x: 1,
           y: 0.5,
           z: 0.25,
         },
         ambient: {
-          color: 0x1b2c80,
-          intensity: 0.5,
+          color: 0x1a2030, // Cool dark blue ambient - realistic night
+          intensity: 0.25, // Low ambient for realistic darkness
         }
       },
       day: {
@@ -542,11 +572,68 @@ class Game {
   }
   onControlsLock() {
     this.playerController.enabled = true;
+    // Show crosshair
+    const crosshair = document.getElementById('crosshair');
+    if (crosshair) crosshair.style.display = 'block';
   }
   onControlsUnlock() {
     this.playerController.enabled = false;
     if (this.uiOnUnfocus) {
       this.blocker.classList.remove('hide');
+    }
+    // Hide crosshair
+    const crosshair = document.getElementById('crosshair');
+    if (crosshair) crosshair.style.display = 'none';
+  }
+
+  onMouseMove(event) {
+    // Update mouse position for raycasting
+    this.mouse.x = (event.clientX / window.innerWidth) * 2 - 1;
+    this.mouse.y = -(event.clientY / window.innerHeight) * 2 + 1;
+  }
+
+  onClick(event) {
+    // Only process clicks when controls are locked (in-game)
+    if (!this.controls.isLocked || !this.raycaster || !this.initialized) {
+      return;
+    }
+
+    // Update raycaster with camera and center of screen (crosshair position)
+    this.raycaster.setFromCamera({ x: 0, y: 0 }, this.player.camera);
+
+    // Check for intersections with interactive project billboards
+    const intersects = this.raycaster.intersectObjects(this.interactiveObjects, false);
+
+    if (intersects.length > 0) {
+      const clickedObject = intersects[0].object;
+      
+      // Check if it's a Monad project billboard
+      if (clickedObject.userData && clickedObject.userData.isMonadProject) {
+        const project = clickedObject.userData.project;
+        const distance = Math.round(intersects[0].distance);
+        
+        console.log('🎯 Clicked Monad project:', project.name, '@ ' + distance + 'm');
+        
+        // Visual feedback
+        const resourcesPanel = document.getElementById('resources');
+        if (resourcesPanel) {
+          resourcesPanel.innerHTML = `>> <span class="g1">OPENING: ${project.name}</span><br>> Distance: ${distance}m`;
+          setTimeout(() => {
+            // Proximity detector will take over again
+            if (this.proximityDetector) {
+              this.proximityDetector.frameCounter = 0; // Force immediate update
+            }
+          }, 2000);
+        }
+        
+        // Open project URL in new tab
+        if (project.url && project.url !== '') {
+          window.open(project.url, '_blank');
+        } else if (project.twitter && project.twitter !== '') {
+          // Fallback to Twitter if no URL
+          window.open(project.twitter, '_blank');
+        }
+      }
     }
   }
 

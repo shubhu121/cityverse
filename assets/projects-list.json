@@ -1,0 +1,1832 @@
+[
+  {
+    "name": "0x",
+    "twitter": "https://x.com/0xProject",
+    "url": "https://0x.org/",
+    "img": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/67b910681d1e917a4b1a10d9_0x_banner.webp"
+  },
+  {
+    "name": "AUSD",
+    "twitter": "https://x.com/withAUSD",
+    "url": "https://agora.finance",
+    "img": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/67c620f148f4cde61d6cf7fb_ausd%20(1).webp"
+  },
+  {
+    "name": "AZEx",
+    "twitter": "https://x.com/azex_io",
+    "url": "https://azex.io/home",
+    "img": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/67e316c93c4aa7bb9abb6b5c_azex%20banner.webp"
+  },
+  {
+    "name": "Aarna",
+    "twitter": "https://x.com/aarnasays",
+    "url": "https://www.aarna.ai/",
+    "img": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/6834a164fae794782857fffd_1500x500-2-.webp"
+  },
+  {
+    "name": "Accountable",
+    "twitter": "https://x.com/AccountableData",
+    "url": "https://yield.accountable.capital/",
+    "img": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/68a730300920180531983ce9_x_cover_business%20(1).webp"
+  },
+  {
+    "name": "Across Protocol",
+    "twitter": "https://x.com/AcrossProtocol",
+    "url": "https://across.to/",
+    "img": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/68e035994e3c2ccadb2a907d_X-Banner-1500x500-.webp"
+  },
+  {
+    "name": "Acurast",
+    "twitter": "https://x.com/Acurast",
+    "url": "https://acurast.com/",
+    "img": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/67b910bace65acecef527de2_Acurast_banner.webp"
+  },
+  {
+    "name": "AethonSwap",
+    "twitter": "https://x.com/AethonSwap",
+    "url": "https://www.aethonswap.com/",
+    "img": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/68e0395d301c8d49539f8ff5_aethonswap-twitter-banner-3-1-.webp"
+  },
+  {
+    "name": "Alchemy",
+    "twitter": "https://x.com/Alchemy",
+    "url": "https://alchemy.com",
+    "img": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/67b910df442716854f1f207e_Alchemy_banner.webp"
+  },
+  {
+    "name": "AllDomains",
+    "twitter": "https://x.com/AllDomains_",
+    "url": "https://monad.alldomains.id/",
+    "img": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/67e316a9407f35c90acd334b_1500x500-2-.webp"
+  },
+  {
+    "name": "Allium",
+    "twitter": "https://x.com/AlliumLabs",
+    "url": "https://www.allium.so/",
+    "img": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/67b910ed033e2b1def73adaa_Allium_banner.webp"
+  },
+  {
+    "name": "Ambient",
+    "twitter": "https://x.com/ambient_finance",
+    "url": "https://monad.ambient.finance",
+    "img": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/67b910f8442716854f1f312c_Ambient_banner.webp"
+  },
+  {
+    "name": "Ambire Wallet",
+    "twitter": "https://x.com/ambirewallet",
+    "url": "https://www.ambire.com",
+    "img": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/67d3a0a7984211865e3ea8ec_Change-X-Hero-Image-Issue-1537.webp"
+  },
+  {
+    "name": "Amertis",
+    "twitter": "https://x.com/AmertisExchange",
+    "url": "https://amertis.exchange/",
+    "img": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/67cb75a41f9084980878c243_amertis_banner.webp"
+  },
+  {
+    "name": "Ammalgam",
+    "twitter": "https://x.com/Ammalgam",
+    "url": "https://alpha.ammalgam.xyz/",
+    "img": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/67b91108f6be2d85fbd272a3_Ammalgam_banner.webp"
+  },
+  {
+    "name": "ApeBond",
+    "twitter": "https://x.com/apebond",
+    "url": "https://ape.bond",
+    "img": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/67eff2c5822ee4e28e47f441_banner.webp"
+  },
+  {
+    "name": "Apriori",
+    "twitter": "https://x.com/apriori",
+    "url": "",
+    "img": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/67b911371d1e917a4b1ad43f_Apriori_banner.webp"
+  },
+  {
+    "name": "Atlantis",
+    "twitter": "https://x.com/atlantisdex_xyz",
+    "url": "https://atlantisdex.xyz",
+    "img": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/67d3a0a71b288e2e961f005c_1500x500.webp"
+  },
+  {
+    "name": "Atomic Wallet",
+    "twitter": "https://x.com/atomicwallet",
+    "url": "https://atomicwallet.io/",
+    "img": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/6853207f608eafe16f68161b_atomic%20banner.webp"
+  },
+  {
+    "name": "Azaar",
+    "twitter": "https://x.com/AzaarExchange",
+    "url": "https://azaar.com/",
+    "img": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/67b91173b0307a90b7b1b0c4_Azaar_banner.webp"
+  },
+  {
+    "name": "Backpack Wallet",
+    "twitter": "https://x.com/Backpack",
+    "url": "https://backpack.app/",
+    "img": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/67b91180f43c1f7d1769200f_Backpack%20Wallet_banner.webp"
+  },
+  {
+    "name": "Balancer",
+    "twitter": "https://x.com/Balancer",
+    "url": "https://balancer.fi/",
+    "img": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/67b91e60ab78b729a9289a4c_Balancer%20Banner.webp"
+  },
+  {
+    "name": "Band Protocol",
+    "twitter": "https://x.com/BandProtocol",
+    "url": "https://www.bandprotocol.com/",
+    "img": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/67e317a6a79803c3bc66316e_band%20brotocol%20banner.webp"
+  },
+  {
+    "name": "Bean Exchange",
+    "twitter": "https://x.com/Bean_DEX",
+    "url": "https://bean.exchange/",
+    "img": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/67b9118e5481bdf7e82958ac_Bean%20Exchange_banner.webp"
+  },
+  {
+    "name": "Bebop",
+    "twitter": "https://x.com/bebop_dex/",
+    "url": "https://bebop.xyz/",
+    "img": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/67b9119a8b0b0587034738d1_Bebop_banner.webp"
+  },
+  {
+    "name": "Biconomy",
+    "twitter": "https://x.com/biconomy",
+    "url": "",
+    "img": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/67b911ab033e2b1def743657_Biconomy_banner.webp"
+  },
+  {
+    "name": "Bima",
+    "twitter": "https://x.com/bimabtc",
+    "url": "https://bima.money/",
+    "img": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/67b911b4032221af82c42e0a_Bima_banner.webp"
+  },
+  {
+    "name": "Birdeye",
+    "twitter": "https://x.com/birdeye_so",
+    "url": "https://birdeye.so/",
+    "img": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/68f69b4da7d3625a521dd18f_BSO-x-Banner.webp"
+  },
+  {
+    "name": "Birdeye Data Services",
+    "twitter": "https://x.com/birdeye_data",
+    "url": "https://bds.birdeye.so/",
+    "img": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/68f69b4d2971afdf6a18ab28_BDS-x-Banner.webp"
+  },
+  {
+    "name": "Bitget Wallet",
+    "twitter": "",
+    "url": "https://web3.bitget.com/en?source=bitget",
+    "img": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/67b911c0033e2b1def74443d_Bitget%20Wallet_banner.webp"
+  },
+  {
+    "name": "Blazpay",
+    "twitter": "https://x.com/blazpaylabs",
+    "url": "https://blazpay.com",
+    "img": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/67b911d2de4da514b324986f_Blazpay_banner.webp"
+  },
+  {
+    "name": "BlockStreet",
+    "twitter": "https://x.com/blockst_hq",
+    "url": "https://blockstreet.money/",
+    "img": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/68b20be38a9f4a238e4ca7ef_monad-bg-1500_500.webp"
+  },
+  {
+    "name": "BlockVision",
+    "twitter": "https://x.com/blockvisionhq",
+    "url": "https://blockvision.org/",
+    "img": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/67b911e2de4da514b324a0d5_BlockVision_banner.webp"
+  },
+  {
+    "name": "Blockdaemon",
+    "twitter": "https://x.com/BlockdaemonHQ",
+    "url": "https://www.blockdaemon.com/",
+    "img": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/67b911ee033e2b1def746334_Blockdaemon_banner.webp"
+  },
+  {
+    "name": "Blocklive",
+    "twitter": "https://x.com/blocklive_/",
+    "url": "https://blocklive.io",
+    "img": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/67b911ffebe3a25cc1bc5a93_Blocklive_banner.webp"
+  },
+  {
+    "name": "Breath of Estova",
+    "twitter": "https://x.com/BreathOfEstova",
+    "url": "https://www.breathofestova.com/",
+    "img": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/687816be44e9942c1c1ef114_estova%20background%201500x500%20(1).webp"
+  },
+  {
+    "name": "Buzzing Club",
+    "twitter": "",
+    "url": "https://www.buzzing.club/",
+    "img": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/687817535bd84bf1c05d423e_buzzing%201500x500%20(1).webp"
+  },
+  {
+    "name": "Bybit Web3 Wallet",
+    "twitter": "https://x.com/Bybit_Web3",
+    "url": "https://www.bybit.com/en/web3",
+    "img": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/67b91252b76bbf068dcd1c8c_Bybit%20Web3%20Wallet_banner.webp"
+  },
+  {
+    "name": "CPLX",
+    "twitter": "https://x.com/cplx_io",
+    "url": "https://cplx.io",
+    "img": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/6883e31a7a1418a2a81fc34e_x_banner_3.webp"
+  },
+  {
+    "name": "CULT",
+    "twitter": "https://x.com/cultdottrade",
+    "url": "https://www.cult.trade/",
+    "img": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/688e9f87183ff7b96a8a5684_cult%20banner.webp"
+  },
+  {
+    "name": "Caddy Finance",
+    "twitter": "https://x.com/caddyfi",
+    "url": "https://caddy.finance/",
+    "img": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/6875a11225c65482825c4f2b_caddyfinancebanner.webp"
+  },
+  {
+    "name": "Capa",
+    "twitter": "https://x.com/capa_fi",
+    "url": "https://capa.fi/",
+    "img": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/68bb68aee3866caf6b346c04_capa%20background.webp"
+  },
+  {
+    "name": "Castora",
+    "twitter": "https://x.com/Castora_xyz",
+    "url": "https://castora.xyz",
+    "img": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/67b9127dea5cc3512a8b5a62_Castora_banner.webp"
+  },
+  {
+    "name": "Catton AI",
+    "twitter": "https://x.com/Cattontw",
+    "url": "https://catton.ai",
+    "img": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/67eff2c59b8145c6ecb86f1e_1500x500.webp"
+  },
+  {
+    "name": "Celeris",
+    "twitter": "https://x.com/0xCeleris",
+    "url": "https://celeris.exchange",
+    "img": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/6863135bff21aa78233f1aa5_20250624_015320.webp"
+  },
+  {
+    "name": "Chainbase",
+    "twitter": "",
+    "url": "https://chainbase.com/",
+    "img": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/67b912986ca74a700163fbc2_Chainbase_banner.webp"
+  },
+  {
+    "name": "Chainlink",
+    "twitter": "https://x.com/chainlink",
+    "url": "https://chain.link/",
+    "img": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/67c4e79e50923072710e914c_chainlink%20banner.webp"
+  },
+  {
+    "name": "Chainsight",
+    "twitter": "https://x.com/Chainsight_",
+    "url": "https://chainsight.network/",
+    "img": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/67b912a378fa3e34d9099949_Chainsight_banner.webp"
+  },
+  {
+    "name": "Chronicle",
+    "twitter": "https://x.com/ChronicleLabs",
+    "url": "https://chroniclelabs.org/",
+    "img": "https://cdn.prod.website-files.com/plugins/Basic/assets/placeholder.60f9b1840c.svg"
+  },
+  {
+    "name": "Clober",
+    "twitter": "https://x.com/CloberDEX",
+    "url": "https://alpha.clober.io/?utm_source=monad_eco&amp;utm_medium=referral",
+    "img": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/67bebcbda054d8dee3799b11_clober%20monad.webp"
+  },
+  {
+    "name": "CoNFT",
+    "twitter": "https://x.com/ConftApp",
+    "url": "https://conft.app",
+    "img": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/67cb771049486c6eb222c702_conft%20(1).webp"
+  },
+  {
+    "name": "Codex",
+    "twitter": "https://x.com/trycodex",
+    "url": "https://www.codex.io",
+    "img": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/67b912ddae2274c79f98768c_Codex_banner.webp"
+  },
+  {
+    "name": "Coin98 AI Wallet",
+    "twitter": "https://x.com/coin98_wallet",
+    "url": "https://coin98.com/",
+    "img": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/67b912e8de3f023f51d1d7c4_Coin98%20AI%20Wallet_banner.webp"
+  },
+  {
+    "name": "Covenant",
+    "twitter": "https://x.com/covenantFi",
+    "url": "https://covenant.finance",
+    "img": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/67b9131fa3562438106116ea_Covenant_banner.webp"
+  },
+  {
+    "name": "Crust Finance",
+    "twitter": "https://x.com/CrustFinance",
+    "url": "https://crust.finance",
+    "img": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/6802d4c3f491d1780dd47583_1500x500%20(1)%20(1).webp"
+  },
+  {
+    "name": "Crystal",
+    "twitter": "https://x.com/CrystalExch",
+    "url": "https://crystal.exchange",
+    "img": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/67b91336a1ed529049cd029d_Crystal_banner.webp"
+  },
+  {
+    "name": "Cult Markets",
+    "twitter": "https://x.com/cultmarkets",
+    "url": "https://testnet.cultmarkets.com/",
+    "img": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/6847444702a242ed322515ec_cultmarkets_banner.webp"
+  },
+  {
+    "name": "Curvance",
+    "twitter": "https://x.com/Curvance",
+    "url": "https://monad.curvance.com/monad",
+    "img": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/67b9137cce65acecef54658a_Curvance_banner.webp"
+  },
+  {
+    "name": "Cycle Network",
+    "twitter": "https://x.com/cyclenetwork_GO",
+    "url": "https://www.cyclenetwork.io/",
+    "img": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/67b91386dec63edfce3f80b2_Cycle%20Network_banner.webp"
+  },
+  {
+    "name": "Cyferio",
+    "twitter": "https://x.com/cyferio_labs",
+    "url": "https://cyferio.com",
+    "img": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/67b9139678fa3e34d90a5b90_Cyferio_banner.webp"
+  },
+  {
+    "name": "DAU Cards",
+    "twitter": "https://x.com/DAUCards",
+    "url": "https://gmonad.daucards.com/",
+    "img": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/67b913a4ea5cc3512a8c6485_DAU%20Cards_banner.webp"
+  },
+  {
+    "name": "DRKVRS",
+    "twitter": "https://x.com/drkvrs",
+    "url": "https://www.drkvrs.io",
+    "img": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/67d3a1aea4d25d753f9215c7_drkvrs%20banner%20(1).webp"
+  },
+  {
+    "name": "DRPC",
+    "twitter": "https://x.com/drpcorg",
+    "url": "https://drpc.org",
+    "img": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/67b913b9c0e02b5b7bef2682_DRPC_banner.webp"
+  },
+  {
+    "name": "DashX",
+    "twitter": "https://x.com/dashxhq",
+    "url": "https://dashx.xyz",
+    "img": "https://cdn.prod.website-files.com/plugins/Basic/assets/placeholder.60f9b1840c.svg"
+  },
+  {
+    "name": "Defined",
+    "twitter": "https://x.com/definedfi",
+    "url": "https://defined.fi",
+    "img": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/67b913c62a3730e911b60d80_Defined_banner.webp"
+  },
+  {
+    "name": "Demask Finance",
+    "twitter": "https://x.com/demaskfinance",
+    "url": "https://demask.finance/",
+    "img": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/67b913dac0e02b5b7bef3bef_Demask%20Finance_banner.webp"
+  },
+  {
+    "name": "Dialect",
+    "twitter": "",
+    "url": "",
+    "img": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/67b913e5e21ffe4d1050d95f_Dialect_banner.webp"
+  },
+  {
+    "name": "Diffuse",
+    "twitter": "https://x.com/DiffuseFi",
+    "url": "https://www.diffuse.fi/",
+    "img": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/67b913edb126dbefee70369b_Diffuse_banner.webp"
+  },
+  {
+    "name": "Dirol Protocol",
+    "twitter": "https://x.com/DirolProtocol",
+    "url": "https://dex.dirol.io/swap",
+    "img": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/67cb776ce2f730919914482f_Dirol%20Banner%20(1).webp"
+  },
+  {
+    "name": "DiscoCats",
+    "twitter": "https://x.com/mydiscocats",
+    "url": "https://mydiscocats.com/",
+    "img": "https://cdn.prod.website-files.com/plugins/Basic/assets/placeholder.60f9b1840c.svg"
+  },
+  {
+    "name": "Doppler",
+    "twitter": "https://x.com/dopplerprotocol",
+    "url": "https://doppler.lol/",
+    "img": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/67bebd1e315fb4f90a5cf4ba_doppler%20banner.webp"
+  },
+  {
+    "name": "Drake",
+    "twitter": "https://x.com/DrakeExchange",
+    "url": "https://drake.exchange/",
+    "img": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/6847444675685e46bfbc9a8a_v2-banner.webp"
+  },
+  {
+    "name": "Dune",
+    "twitter": "https://x.com/Dune",
+    "url": "",
+    "img": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/67b91411e21ffe4d1050f3ad_Dune_banner.webp"
+  },
+  {
+    "name": "Dusted",
+    "twitter": "",
+    "url": "https://www.dusted.app",
+    "img": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/67b9141ce0429ca00f4f3f18_Dusted_banner.webp"
+  },
+  {
+    "name": "Dynamic",
+    "twitter": "https://x.com/dynamic_xyz",
+    "url": "https://www.dynamic.xyz/",
+    "img": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/67b9142473996311554ca9af_Dynamic_banner.webp"
+  },
+  {
+    "name": "Dyson Finance",
+    "twitter": "https://x.com/DysonFinance",
+    "url": "https://dyson.finance/",
+    "img": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/67e316a97d15a048a0c7a46c_twitter_pre_launch_cover_4x.webp"
+  },
+  {
+    "name": "ELFi",
+    "twitter": "https://x.com/ELFiProtocol",
+    "url": "https://www.elfi.xyz/",
+    "img": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/68474446020515eb7453f84b_banner.webp"
+  },
+  {
+    "name": "EOracle",
+    "twitter": "https://x.com/eoracle_network",
+    "url": "https://www.eoracle.io/",
+    "img": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/67b914357f3041834a54a50e_EOracle_banner.webp"
+  },
+  {
+    "name": "Eisen Finance",
+    "twitter": "https://x.com/EisenLabs",
+    "url": "https://eisenfinance.com/",
+    "img": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/6893bd214907ffb0bd6905b6_x-banner.webp"
+  },
+  {
+    "name": "Enjoyoors",
+    "twitter": "https://x.com/enjoyoorsxyz",
+    "url": "https://enjoyoors.xyz",
+    "img": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/682eef78202dc7cc8af07d6d_Header_enjoyoors.webp"
+  },
+  {
+    "name": "Entangle",
+    "twitter": "https://x.com/Entanglefi",
+    "url": "https://entangle.fi/",
+    "img": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/67cb77e668afbbbcfdeaab59_entangle-banner.webp"
+  },
+  {
+    "name": "Envio",
+    "twitter": "https://x.com/envio_indexer",
+    "url": "https://envio.dev/",
+    "img": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/67b91446e882d110b44a24af_Envio_banner.webp"
+  },
+  {
+    "name": "Epoch Protocol",
+    "twitter": "https://x.com/0xepochprotocol",
+    "url": "https://epochprotocol.xyz",
+    "img": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/690e732b48b060418ac56d89_meme---banner-trend.webp"
+  },
+  {
+    "name": "Euclid Protocol",
+    "twitter": "https://x.com/EuclidProtocol",
+    "url": "https://www.euclidprotocol.io/",
+    "img": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/6883f9f05ed6d256a415dd27_euclid%20banner.webp"
+  },
+  {
+    "name": "Euler",
+    "twitter": "https://x.com/eulerfinance/",
+    "url": "",
+    "img": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/67b9148784cbdc367d624331_Euler_banner.webp"
+  },
+  {
+    "name": "FUKU",
+    "twitter": "https://x.com/Fuku_nad",
+    "url": "https://testnet.fukunad.xyz/",
+    "img": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/67c4e7d195901a1d7451f9d8_fuku%20b.webp"
+  },
+  {
+    "name": "FWX",
+    "twitter": "https://x.com/fwxfinance",
+    "url": "https://fwx.finance",
+    "img": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/6847444652fc2d7b6454b312_fwx-banner.webp"
+  },
+  {
+    "name": "Fans3 AI",
+    "twitter": "https://x.com/Fans3AI",
+    "url": "https://www.fans3.ai/",
+    "img": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/688d2cfa82f4a5eaf6956e46_fan3%20new%20banner.webp"
+  },
+  {
+    "name": "Farcaster",
+    "twitter": "https://x.com/farcaster_xyz",
+    "url": "",
+    "img": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/6883e31c7002016d7f174e3e_fcb.webp"
+  },
+  {
+    "name": "FastLane",
+    "twitter": "https://x.com/0xFastLane",
+    "url": "https://www.fastlane.xyz/",
+    "img": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/67bcd3c2c6d79d1cd6445d82_fastlane.webp"
+  },
+  {
+    "name": "Fiamma",
+    "twitter": "https://x.com/fiamma_labs",
+    "url": "https://fiammalabs.io/",
+    "img": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/67b914b57dbc3256a01c9255_Fiamma_banner.webp"
+  },
+  {
+    "name": "Fizen.io",
+    "twitter": "https://x.com/fizenapp",
+    "url": "https://fizen.io/",
+    "img": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/67b914c1779fac86351a7c11_Fizen.io_banner.webp"
+  },
+  {
+    "name": "Flap",
+    "twitter": "https://x.com/flapdotsh",
+    "url": "https://monad.flap.sh/board",
+    "img": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/67b914cc3a3a575251c3c907_Flap_banner.webp"
+  },
+  {
+    "name": "Flipside Crypto",
+    "twitter": "https://x.com/flipsidecrypto",
+    "url": "https://flipsidecrypto.com",
+    "img": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/67b914d6af1ff23f24a5b7d6_Flipside%20Crypto_banner.webp"
+  },
+  {
+    "name": "Folks Finance",
+    "twitter": "https://x.com/FolksFinance",
+    "url": "https://folks.finance/",
+    "img": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/67b914e01e79a03f6da50e6f_Folks%20Finance_banner.webp"
+  },
+  {
+    "name": "Fonbnk",
+    "twitter": "https://x.com/fonbnk1",
+    "url": "https://www.fonbnk.com/",
+    "img": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/68b20d1c0eb83dc9210d08cc_fnbank%201500x500%20(1).jpeg"
+  },
+  {
+    "name": "Fortytwo",
+    "twitter": "https://x.com/fortytwonetwork",
+    "url": "https://fortytwo.network/",
+    "img": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/67b914e8fc64a6c6e43a887e_Fortytwo_banner.webp"
+  },
+  {
+    "name": "FoxWallet",
+    "twitter": "",
+    "url": "https://foxwallet.com/en",
+    "img": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/67eff2c5b61ab3ee66b95f50_1500x500.webp"
+  },
+  {
+    "name": "GM Agents",
+    "twitter": "https://x.com/GMAgents_AI",
+    "url": "https://gmagents.ai/",
+    "img": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/687816d6dfa57cb6f0341205_gm%20background%201500x500%20(1).webp"
+  },
+  {
+    "name": "Garden",
+    "twitter": "https://x.com/garden_finance",
+    "url": "https://garden.finance/",
+    "img": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/68ceb77fe2afc590d7d7eb0e_monad_cover.png"
+  },
+  {
+    "name": "Gasp",
+    "twitter": "https://x.com/Gasp_xyz",
+    "url": "https://www.gasp.xyz/",
+    "img": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/67eff2c5fe6b7047c00492dc_1500x500.webp"
+  },
+  {
+    "name": "Gateway",
+    "twitter": "https://x.com/Gateway_xyz",
+    "url": "https://gateway.tech/",
+    "img": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/67b915055075b90f1687d2bc_Gateway_banner.webp"
+  },
+  {
+    "name": "Gearbox Protocol",
+    "twitter": "https://x.com/GearboxProtocol",
+    "url": "https://gearbox.fi/",
+    "img": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/68f69b4cbcdd9c8e6c15073d_1500x500.webp"
+  },
+  {
+    "name": "Gelato",
+    "twitter": "https://x.com/gelatonetwork",
+    "url": "https://www.gelato.network/",
+    "img": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/67b91510859d08f0b8d7fccc_Gelato_banner.webp"
+  },
+  {
+    "name": "Ghost",
+    "twitter": "",
+    "url": "https://tryghost.xyz",
+    "img": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/67b9151948ee25af9bdf3ea6_Ghost_banner.webp"
+  },
+  {
+    "name": "Gifted.art",
+    "twitter": "https://x.com/gifteddotart",
+    "url": "https://gifted.art/",
+    "img": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/67b915216e9a2707acfaa17a_Gifted.art_banner.webp"
+  },
+  {
+    "name": "GoPlus",
+    "twitter": "https://x.com/goplussecurity",
+    "url": "",
+    "img": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/67b9152dab78b729a922069b_GoPlus_banner.webp"
+  },
+  {
+    "name": "GoldRush by Covalent",
+    "twitter": "https://x.com/Covalent_HQ",
+    "url": "https://goldrush.dev/",
+    "img": "https://cdn.prod.website-files.com/plugins/Basic/assets/placeholder.60f9b1840c.svg"
+  },
+  {
+    "name": "Golden Goose",
+    "twitter": "https://x.com/GoldenGoose_app",
+    "url": "https://test.goose.farm/goose",
+    "img": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/67b9153f6e9a2707acfac800_Golden%20Goose_banner.webp"
+  },
+  {
+    "name": "Goldsky",
+    "twitter": "https://x.com/goldskyio",
+    "url": "https://goldsky.com",
+    "img": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/67b915498330a99a870e9e79_Goldsky_banner.webp"
+  },
+  {
+    "name": "Gorillionaire",
+    "twitter": "https://x.com/gorillionaireai",
+    "url": "https://www.gorillionai.re/",
+    "img": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/68474cb48bed528dd7a3cec4_gorillionaire%20banner.webp"
+  },
+  {
+    "name": "HaHa Wallet",
+    "twitter": "https://x.com/haha_app",
+    "url": "https://www.haha.me",
+    "img": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/67b9155cf6998cf242066b95_HaHa%20Wallet_banner.webp"
+  },
+  {
+    "name": "Hashflow",
+    "twitter": "https://x.com/hashflow",
+    "url": "https://app.hashflow.com/",
+    "img": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/67b91567cfd1b7580b46401c_Hashflow_banner.webp"
+  },
+  {
+    "name": "Hawk Terminal",
+    "twitter": "https://x.com/hawkterminal_HQ",
+    "url": "https://hawkterminal.com/",
+    "img": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/67e31755c7faf77a521f32de_hawk%20terminal%20banner.webp"
+  },
+  {
+    "name": "Hemera",
+    "twitter": "https://x.com/HemeraProtocol",
+    "url": "https://thehemera.com/",
+    "img": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/67b9157bb126dbefee712be4_Hemera_banner.webp"
+  },
+  {
+    "name": "Henry Labs",
+    "twitter": "https://x.com/henrylabs",
+    "url": "https://www.henrylabs.xyz/",
+    "img": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/687816e959d71c67e80d8968_henry%20background%201500x500%20(1).webp"
+  },
+  {
+    "name": "Hive",
+    "twitter": "https://x.com/Hive_Monad",
+    "url": "https://bhive.finance/",
+    "img": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/680607ee5d66251ea96a2f47_hive%20banner.webp"
+  },
+  {
+    "name": "Hyperlane",
+    "twitter": "https://x.com/hyperlane",
+    "url": "https://hyperlane.xyz",
+    "img": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/67b9158311a6f58966799b1e_Hyperlane_banner.webp"
+  },
+  {
+    "name": "INFINIT",
+    "twitter": "https://x.com/infinit_labs",
+    "url": "https://infinit.tech/",
+    "img": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/67b9158bf6998cf242068ccf_INFINIT_banner.webp"
+  },
+  {
+    "name": "IZUMi Finance",
+    "twitter": "https://x.com/izumi_Finance",
+    "url": "https://alpha.izumi.finance/trade/swap",
+    "img": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/67b91596779fac86351afd4c_IZUMi%20Finance_banner.webp"
+  },
+  {
+    "name": "Impossible Finance",
+    "twitter": "https://x.com/impossiblefi",
+    "url": "https://impossible.finance/",
+    "img": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/67b915a3f6998cf242069f83_Impossible%20Finance_banner.webp"
+  },
+  {
+    "name": "Index Network",
+    "twitter": "https://x.com/indexnetwork_",
+    "url": "https://index.network/",
+    "img": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/68d6e931940f75ea0a8764e4_IndexCover.webp"
+  },
+  {
+    "name": "Jenius",
+    "twitter": "https://x.com/JeniusRndm",
+    "url": "https://jenius.rndm.io",
+    "img": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/68e96d207864335c4112126f_jenius%20background.webp"
+  },
+  {
+    "name": "Jumper Exchange",
+    "twitter": "https://x.com/jumperexchange?utm_source=monad_ecosystem&amp;utm_medium=referral&amp;utm_campaign=monad_integration",
+    "url": "https://jumper.exchange/?utm_source=monad_ecosystem&amp;utm_medium=referral&amp;utm_campaign=monad_integration",
+    "img": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/68fe71a6e033a4712c4c3746_jumper-cover-image.webp"
+  },
+  {
+    "name": "KINETK",
+    "twitter": "https://x.com/KINETK_AI",
+    "url": "https://www.kinetk.ai/",
+    "img": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/68ceba28a6e940587e1a4ae5_kinetk%20background.webp"
+  },
+  {
+    "name": "Kansei",
+    "twitter": "https://x.com/0xKansei",
+    "url": "https://kansei.finance/trade",
+    "img": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/68ceb780461d68370d63b7c0_1500x500.webp"
+  },
+  {
+    "name": "KiloEx",
+    "twitter": "https://x.com/KiloEx_perp",
+    "url": "https://www.kiloex.io/",
+    "img": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/67b915b689130464ea416042_KiloEx_banner.webp"
+  },
+  {
+    "name": "Kingdomly",
+    "twitter": "https://x.com/Kingdomlyapp",
+    "url": "https://www.kingdomly.app/",
+    "img": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/6883ea3535ec43a0494e97cb_kingdom%20banner.webp"
+  },
+  {
+    "name": "Kintsu",
+    "twitter": "https://x.com/kintsu_xyz",
+    "url": "https://kintsu.xyz/",
+    "img": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/67b915c0f6998cf24206bae3_Kintsu_banner.webp"
+  },
+  {
+    "name": "Kinza Finance",
+    "twitter": "https://x.com/kinzafinance",
+    "url": "https://monad-test.kinza.finance/#/",
+    "img": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/67b915c884cbdc367d631043_Kinza%20Finance_banner.webp"
+  },
+  {
+    "name": "Kizzy",
+    "twitter": "https://x.com/kizzymobile",
+    "url": "https://kizzy.io/",
+    "img": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/67b915d286bf1f948b421241_Kizzy_banner.webp"
+  },
+  {
+    "name": "Kodeus AI",
+    "twitter": "https://x.com/TheKodeusLabs",
+    "url": "https://kodeus.ai/",
+    "img": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/68ceb77ff5972224015058a6_twitter-banner.webp"
+  },
+  {
+    "name": "Koywe",
+    "twitter": "https://x.com/koywe_latam",
+    "url": "https://www.koywe.com/en/home",
+    "img": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/68b20be38a9f4a238e4ca805_Banner_1500x500_koywe-1-.webp"
+  },
+  {
+    "name": "KuCoin Web3 Wallet",
+    "twitter": "https://x.com/KuCoin_Web3",
+    "url": "https://www.kucoin.com/download",
+    "img": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/67b915e4ab78b729a9227ef1_KuCoin%20Web3%20Wallet_banner.webp"
+  },
+  {
+    "name": "Kuru",
+    "twitter": "https://x.com/KuruExchange",
+    "url": "https://kuru.io/",
+    "img": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/67b915ee1610ca8a55c3bd46_Kuru_banner.webp"
+  },
+  {
+    "name": "LAGOON",
+    "twitter": "https://x.com/lagoon_finance",
+    "url": "https://lagoon.finance/",
+    "img": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/687546f428ab754a943f12c8_Banner-Cover_LAGOON_1500x500-pixels.webp"
+  },
+  {
+    "name": "LEVR.bet",
+    "twitter": "https://x.com/levr_bet",
+    "url": "",
+    "img": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/67b915fa9fa4892d6236d66a_LEVR.bet_banner.webp"
+  },
+  {
+    "name": "LFJ",
+    "twitter": "https://x.com/LFJ_gg",
+    "url": "https://pandaria.lfj.gg/",
+    "img": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/67b916025d51b1bcd91c3c36_LFJ_banner.webp"
+  },
+  {
+    "name": "LI.FI",
+    "twitter": "https://x.com/lifiprotocol",
+    "url": "https://li.fi/",
+    "img": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/68ceb780e6d195deeeed6da4_lifi_background.webp"
+  },
+  {
+    "name": "LayerZero",
+    "twitter": "https://x.com/LayerZero_Core",
+    "url": "https://layerzero.network/",
+    "img": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/67b9160b3a3a575251c4a40a_LayerZero_banner.webp"
+  },
+  {
+    "name": "Layerhub",
+    "twitter": "https://x.com/layerhub",
+    "url": "https://layerhub.xyz/",
+    "img": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/68f69b4cc576152375cc74af_image_156.webp"
+  },
+  {
+    "name": "Leap Wallet",
+    "twitter": "https://x.com/leap_wallet",
+    "url": "https://www.leapwallet.io/",
+    "img": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/67b91615859d08f0b8d8af34_Leap%20Wallet_banner.webp"
+  },
+  {
+    "name": "Legends of Elysium",
+    "twitter": "https://x.com/LegendsElysium",
+    "url": "https://legendsofelysium.io/",
+    "img": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/6802d455ad9e71e887275dc8_Monad1500x500.webp"
+  },
+  {
+    "name": "LeverUp",
+    "twitter": "https://x.com/LeverUp_xyz",
+    "url": "https://leverup.xyz/",
+    "img": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/68fe71a6e79a1b8bcd68fa33_background-1500x500.webp"
+  },
+  {
+    "name": "Likwid",
+    "twitter": "https://x.com/likwid_fi",
+    "url": "https://likwid.fi/",
+    "img": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/68631425dbb476f319b06489_liqd%20banner.webp"
+  },
+  {
+    "name": "Lombard",
+    "twitter": "https://x.com/Lombard_Finance",
+    "url": "https://lombard.finance",
+    "img": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/67b916331610ca8a55c3ed8f_Lombard_banner.webp"
+  },
+  {
+    "name": "LootGO",
+    "twitter": "https://x.com/lootgo_official",
+    "url": "https://lootgo.app",
+    "img": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/67b9163e89130464ea41cda8_LootGO_banner.webp"
+  },
+  {
+    "name": "Lootify",
+    "twitter": "https://x.com/Lootify_xyz",
+    "url": "https://beta.lootify.xyz/",
+    "img": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/67bebc5fc3129d45e63750cf_lootify%20b.webp"
+  },
+  {
+    "name": "Lumiterra",
+    "twitter": "https://x.com/LumiterraGame",
+    "url": "https://lumiterra.net",
+    "img": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/689f814d36a7d97c9a6b7bdb_background.webp"
+  },
+  {
+    "name": "M0narch",
+    "twitter": "https://x.com/MonadM0narch",
+    "url": "https://m0narch.xyz",
+    "img": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/6883e31a85ccb6f309a67734_1500500.webp"
+  },
+  {
+    "name": "MERV",
+    "twitter": "https://x.com/merv_wtf",
+    "url": "https://merv.wtf/",
+    "img": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/67b9164611a6f589667a3393_MERV_banner.webp"
+  },
+  {
+    "name": "Mace",
+    "twitter": "",
+    "url": "https://www.mace.ag/",
+    "img": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/67b91d8ef9180e8745b830a4_mace%20banner.webp"
+  },
+  {
+    "name": "Mach Exchange",
+    "twitter": "https://x.com/mach_exchange",
+    "url": "https://mach.exchange",
+    "img": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/67cb75a3f18868e40358259b_1500x500-1-.jpeg"
+  },
+  {
+    "name": "Madhouse",
+    "twitter": "https://x.com/usemadhouse",
+    "url": "https://madhouse.ag/",
+    "img": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/68474447f8592a42601ad214_Madhouse_Ecosystem_1500x500.webp"
+  },
+  {
+    "name": "Magic Eden",
+    "twitter": "https://x.com/magiceden",
+    "url": "https://magiceden.io/",
+    "img": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/67b9165d7095d061fc68eef0_Magic%20Eden_banner.webp"
+  },
+  {
+    "name": "Magma",
+    "twitter": "https://x.com/MagmaStaking",
+    "url": "https://www.magmastaking.xyz/",
+    "img": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/67b916666b6cb4307d54557e_Magma_banner.webp"
+  },
+  {
+    "name": "Mahjong123",
+    "twitter": "https://x.com/0xMJM",
+    "url": "https://monad.mahjong123.io/",
+    "img": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/67b9166f048c532f61e000cd_Mahjong123_banner.webp"
+  },
+  {
+    "name": "Memesteroid",
+    "twitter": "https://x.com/memesteroid",
+    "url": "https://memesteroid.fun",
+    "img": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/68f69b4d753f1c7638402828_banner1500x500-eco.webp"
+  },
+  {
+    "name": "Mentaport",
+    "twitter": "",
+    "url": "https://www.mentaport.com",
+    "img": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/67eff2c59473541e98a5dea9_mentaport-landing-page.webp"
+  },
+  {
+    "name": "Meow Finance",
+    "twitter": "https://x.com/meowfi_",
+    "url": "https://meowfi.xyz/",
+    "img": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/6883e31d5763deb46e176909_MeowFi_Banner.webp"
+  },
+  {
+    "name": "Meta Leap",
+    "twitter": "https://x.com/MetaLeap_io",
+    "url": "https://metaleap.io/",
+    "img": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/67b9167d9fa4892d62373cf7_Meta%20Leap_banner.webp"
+  },
+  {
+    "name": "MetaKeep",
+    "twitter": "https://x.com/metakeep",
+    "url": "https://metakeep.xyz",
+    "img": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/67b9168583477f8bd77c78e8_MetaKeep_banner.webp"
+  },
+  {
+    "name": "Mflo",
+    "twitter": "https://x.com/mfloai",
+    "url": "https://mflo.ai",
+    "img": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/68d6e931832086d684a61612_Mflo_background_1500x500.webp"
+  },
+  {
+    "name": "MindAgentsAI",
+    "twitter": "https://x.com/MindAgentsAI",
+    "url": "",
+    "img": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/68e96f50ceca150235bab075_IMG_8831.jpeg"
+  },
+  {
+    "name": "Mintpad",
+    "twitter": "https://x.com/mintpadco",
+    "url": "https://mintpad.co/",
+    "img": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/67b9168e6561ec94bfa4998f_Mintpad_banner.webp"
+  },
+  {
+    "name": "Mobula",
+    "twitter": "https://x.com/Mobulaio",
+    "url": "https://mobula.io",
+    "img": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/67b91697023891683685853e_Mobula_banner.webp"
+  },
+  {
+    "name": "MonadExplorer by BlockVision",
+    "twitter": "https://x.com/blockvisionhq",
+    "url": "https://monadexplorer.com/",
+    "img": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/67b916ab89130464ea4215e4_MonadExplorer%20by%20BlockVision_banner.webp"
+  },
+  {
+    "name": "Monadata AI",
+    "twitter": "https://x.com/monadata_ai",
+    "url": "https://monadata.ai/",
+    "img": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/67b916bcb126dbefee7211ec_Monadata%20AI_banner.webp"
+  },
+  {
+    "name": "Monday Trade",
+    "twitter": "https://x.com/MondayTrade_",
+    "url": "https://monday.trade/",
+    "img": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/6834a164bf63f433352200af_twitter.webp"
+  },
+  {
+    "name": "Monorail",
+    "twitter": "https://x.com/monorail_xyz",
+    "url": "https://monorail.xyz",
+    "img": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/67b91702be2243a8e820b2af_Monorail_banner.webp"
+  },
+  {
+    "name": "Morpheus",
+    "twitter": "https://x.com/Morpheus_Farm",
+    "url": "https://morpheus.farm",
+    "img": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/6863135baa23b039d89be31e_banner.webp"
+  },
+  {
+    "name": "Moseiki",
+    "twitter": "https://x.com/MoseikiApp",
+    "url": "https://moseiki.app/",
+    "img": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/67b9170caf1ff23f24a7847b_Moseiki_banner.webp"
+  },
+  {
+    "name": "Mozi",
+    "twitter": "https://x.com/mozifinance",
+    "url": "https://mozi.finance/",
+    "img": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/67b91714f454824cadfc031c_Mozi_banner.webp"
+  },
+  {
+    "name": "Mu Digital",
+    "twitter": "https://x.com/MuDigitalHQ",
+    "url": "https://mudigital.net/",
+    "img": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/67b91725c0e02b5b7bf189e3_Mu%20Digital_banner.webp"
+  },
+  {
+    "name": "Multipli.fi",
+    "twitter": "https://x.com/multiplifi",
+    "url": "https://multipli.fi/",
+    "img": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/67b91735e21ffe4d10532ad6_Multipli.fi_banner.webp"
+  },
+  {
+    "name": "Multisynq",
+    "twitter": "https://x.com/multisynq",
+    "url": "https://multisynq.io/",
+    "img": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/687816619e7ebd9c2ba23da0_multisynq%20banner%201500x500%20(1).webp"
+  },
+  {
+    "name": "NADSA",
+    "twitter": "https://x.com/0xNADSA",
+    "url": "https://nadsa.space",
+    "img": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/68b20be49797d18c63a72c2c_nadsa-banner.webp"
+  },
+  {
+    "name": "NFTs2Me",
+    "twitter": "https://x.com/NFTs2Me",
+    "url": "",
+    "img": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/67b91741ab78b729a9235c7d_NFTs2Me_banner.webp"
+  },
+  {
+    "name": "NXTchain",
+    "twitter": "https://x.com/NXT_chain",
+    "url": "https://www.nxtchain.com",
+    "img": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/68f69b4c2914de7af9a367b3_NXTchain_Monad_BG.webp"
+  },
+  {
+    "name": "Nabla Finance",
+    "twitter": "",
+    "url": "https://www.nabla.fi",
+    "img": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/67b9174b8f00b5fa4ab712b3_Nabla%20Finance_banner.webp"
+  },
+  {
+    "name": "Nad.fun",
+    "twitter": "https://x.com/naddotfun",
+    "url": "https://testnet.nad.fun",
+    "img": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/67b91754f9180e8745b48efe_Nad.fun_banner.webp"
+  },
+  {
+    "name": "NadSmith",
+    "twitter": "https://x.com/NadSmith_",
+    "url": "",
+    "img": "https://cdn.prod.website-files.com/plugins/Basic/assets/placeholder.60f9b1840c.svg"
+  },
+  {
+    "name": "Narrative",
+    "twitter": "https://x.com/narrativexyz",
+    "url": "https://www.testnet.narrative.xyz/",
+    "img": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/68965d4424485e6a8ec2d656_8.6.webp"
+  },
+  {
+    "name": "Narwhal Finance",
+    "twitter": "https://x.com/Narwhal_Finance",
+    "url": "https://testnet.narwhal.finance/",
+    "img": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/67b91765b126dbefee72cdc5_Narwhal%20Finance_banner.webp"
+  },
+  {
+    "name": "Neverland",
+    "twitter": "https://x.com/neverland_money",
+    "url": "https://neverland.money",
+    "img": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/68d6e9319f6a7484c5ec0149_1500x500.webp"
+  },
+  {
+    "name": "Nillion",
+    "twitter": "https://x.com/nillionnetwork",
+    "url": "",
+    "img": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/67b9177ed052009891787b62_Nillion_banner.webp"
+  },
+  {
+    "name": "Nitro by Router Protocol",
+    "twitter": "https://x.com/routerprotocol",
+    "url": "https://app.routernitro.com/swap",
+    "img": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/67b9178df6998cf24208281a_Nitro%20by%20Router%20Protocol_banner.webp"
+  },
+  {
+    "name": "NitroFinance",
+    "twitter": "https://x.com/NitroFinance",
+    "url": "https://nitrofinance.xyz/",
+    "img": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/67b9179789130464ea42be06_NitroFinance_banner.webp"
+  },
+  {
+    "name": "Nomas Wallet",
+    "twitter": "https://x.com/NomasWallet",
+    "url": "https://nomaswallet.com/",
+    "img": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/67b9179f5d51b1bcd91d4149_Nomas%20Wallet_banner.webp"
+  },
+  {
+    "name": "Nostra",
+    "twitter": "https://x.com/nostrafinance",
+    "url": "https://monad.nostra.finance/lend-borrow",
+    "img": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/67b917a995f6c7651321abbc_Nostra_banner.webp"
+  },
+  {
+    "name": "Notifi",
+    "twitter": "https://x.com/NotifiNetwork",
+    "url": "https://notifi.network/",
+    "img": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/67b917b25075b90f1689eb7e_Notifi_banner.webp"
+  },
+  {
+    "name": "Noves",
+    "twitter": "https://x.com/noves_fi",
+    "url": "https://noves.fi",
+    "img": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/6883e31a3cf8aec80270f6e3_noves-banner.webp"
+  },
+  {
+    "name": "Nubila",
+    "twitter": "https://x.com/nubilanetwork",
+    "url": "https://nubila.ai/",
+    "img": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/68e035995a5f630974e62bad_1500x500.webp"
+  },
+  {
+    "name": "Nunchi",
+    "twitter": "https://x.com/nunchitrade",
+    "url": "https://nunchi.trade/",
+    "img": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/68ceb77f687b9b48c01abe3f_nunchi_1500x500.webp"
+  },
+  {
+    "name": "OKX Explorer",
+    "twitter": "https://x.com/okxexplorer",
+    "url": "",
+    "img": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/67b917bef6998cf242083de7_OKX%20Explorer_banner.webp"
+  },
+  {
+    "name": "OKX Wallet",
+    "twitter": "https://x.com/wallet",
+    "url": "",
+    "img": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/67b917c873996311554ef5ae_OKX%20Wallet_banner.webp"
+  },
+  {
+    "name": "OSL Pay",
+    "twitter": "https://x.com/oslpay",
+    "url": "https://www.osl-pay.com/",
+    "img": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/68fe71a61a4eecacc687e171_1500x500-2.webp"
+  },
+  {
+    "name": "OctoSwap",
+    "twitter": "https://x.com/octoswapdex",
+    "url": "https://octo.exchange",
+    "img": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/67ce4cf1eb2c11cb1c3b90bc_octoswap.webp"
+  },
+  {
+    "name": "Omnia",
+    "twitter": "https://x.com/ExploreOmnia",
+    "url": "https://www.omnia.lol/",
+    "img": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/6878162f2e58f4023f2fae19_omnia%20background%201500x500%20(1).webp"
+  },
+  {
+    "name": "Opals",
+    "twitter": "https://x.com/Opals_io",
+    "url": "https://opals.io/",
+    "img": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/67b917d1e882d110b44cba74_Opals_banner.webp"
+  },
+  {
+    "name": "OpenOcean",
+    "twitter": "https://x.com/OpenOceanGlobal",
+    "url": "https://openocean.finance/",
+    "img": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/67b917d91610ca8a55c50d3f_OpenOcean_banner.webp"
+  },
+  {
+    "name": "OpenSea",
+    "twitter": "https://x.com/opensea",
+    "url": "https://opensea.io/",
+    "img": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/67b917e2f0b471b3c1bef3d0_OpenSea_banner.webp"
+  },
+  {
+    "name": "Orbiter Finance",
+    "twitter": "https://x.com/Orbiter_Finance",
+    "url": "https://www.orbiter.finance/",
+    "img": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/67b917ed83477f8bd77d6444_Orbiter%20Finance_banner.webp"
+  },
+  {
+    "name": "Orderly",
+    "twitter": "https://x.com/orderlynetwork",
+    "url": "https://orderly.network/",
+    "img": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/67b917fb1610ca8a55c520be_Orderly_banner.webp"
+  },
+  {
+    "name": "Orochi Network",
+    "twitter": "",
+    "url": "",
+    "img": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/67b918055075b90f168a20e1_Orochi%20Network_banner.webp"
+  },
+  {
+    "name": "Outpost Surge",
+    "twitter": "https://x.com/OutpostSurge",
+    "url": "https://www.outpostsurge.com/",
+    "img": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/67e316a927462cd6dc6aa4b2_1500x500-4-.webp"
+  },
+  {
+    "name": "Owlto Finance",
+    "twitter": "https://x.com/Owlto_Finance",
+    "url": "https://owlto.finance/",
+    "img": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/67b9180f6ae7e18300e22899_Owlto%20Finance_banner.webp"
+  },
+  {
+    "name": "PLAY Network",
+    "twitter": "https://x.com/0xplay_network",
+    "url": "https://www.theplay.network/",
+    "img": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/67b9181bab78b729a924a14b_PLAY%20Network_banner.webp"
+  },
+  {
+    "name": "POINK",
+    "twitter": "https://x.com/poinkofficial",
+    "url": "https://poink.xyz/",
+    "img": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/67efe1413f6ff09f41971a60_1500x500.webp"
+  },
+  {
+    "name": "PancakeSwap",
+    "twitter": "https://x.com/PancakeSwap",
+    "url": "https://pancakeswap.finance/",
+    "img": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/67b9188d5d51b1bcd91df395_PancakeSwap-Banner.webp"
+  },
+  {
+    "name": "Pangea",
+    "twitter": "https://x.com/In_Pangea",
+    "url": "https://pangea.foundation/",
+    "img": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/67b918fbd031c30308e92055_Pangea_banner.webp"
+  },
+  {
+    "name": "Para",
+    "twitter": "https://x.com/get_para",
+    "url": "https://getpara.com",
+    "img": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/67b91905ab78b729a92534e8_Para_banner.webp"
+  },
+  {
+    "name": "Pecker",
+    "twitter": "https://x.com/pecker_so",
+    "url": "https://pecker.so",
+    "img": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/68966e7ce3a542ddd633928c_pecker%20banner.webp"
+  },
+  {
+    "name": "Peridot",
+    "twitter": "https://x.com/peridotprotocol",
+    "url": "https://peridot.finance/",
+    "img": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/6883e31aba83cb513135eaf1_X-Banner-Secondary-BG.webp"
+  },
+  {
+    "name": "Permute Finance",
+    "twitter": "https://x.com/permute_finance",
+    "url": "https://permute.finance/",
+    "img": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/68e96f513a156f995f3de12f_Cover_correct_dimension.webp"
+  },
+  {
+    "name": "Perpl",
+    "twitter": "https://x.com/perpltrade",
+    "url": "https://perpl.xyz/",
+    "img": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/6878163c2dfad1e468c0d11f_Perpl%201500x500%20(1).webp"
+  },
+  {
+    "name": "Phantom",
+    "twitter": "https://x.com/phantom",
+    "url": "https://phantom.com/",
+    "img": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/67b9190dc1a6a111c7212374_Phantom_banner.webp"
+  },
+  {
+    "name": "Pimlico",
+    "twitter": "https://x.com/pimlicoHQ",
+    "url": "https://www.pimlico.io",
+    "img": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/67b91916c3ad7da1ddf53534_Pimlico_banner.webp"
+  },
+  {
+    "name": "Pingu Exchange",
+    "twitter": "https://x.com/PinguExchange",
+    "url": "https://pingu.exchange/",
+    "img": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/67b91925ab78b729a925454d_Pingu%20Exchange_banner.webp"
+  },
+  {
+    "name": "Plato",
+    "twitter": "https://x.com/plato2earn",
+    "url": "https://m.getplato.app/monad",
+    "img": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/67b9192fc0e02b5b7bf2de8f_Plato_banner.webp"
+  },
+  {
+    "name": "PolyFlow",
+    "twitter": "https://x.com/Polyflow_PayFi",
+    "url": "https://app.polyflow.tech/",
+    "img": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/6878157cb0e6797254c8ec2f_polyflow%20background%201500x500%20(1).webp"
+  },
+  {
+    "name": "Poply",
+    "twitter": "https://x.com/poply_xyz",
+    "url": "https://poply.xyz",
+    "img": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/67cb75a56fa2925b3b2e9a9e_poply-banner.webp"
+  },
+  {
+    "name": "Poster.fun",
+    "twitter": "https://x.com/Posterdotfun",
+    "url": "",
+    "img": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/6863135b0d47a347f7731405_Poster-Twitter-banner-7-.webp"
+  },
+  {
+    "name": "Primex Finance",
+    "twitter": "https://x.com/primex_official",
+    "url": "https://primex.finance/",
+    "img": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/67d3a0a714e1d6afadc6f5f6_Banner.webp"
+  },
+  {
+    "name": "Primus",
+    "twitter": "https://x.com/primus_labs",
+    "url": "https://primuslabs.xyz/",
+    "img": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/67b91939d05200989179a72e_Primus_banner.webp"
+  },
+  {
+    "name": "Privy",
+    "twitter": "https://x.com/privy_io",
+    "url": "",
+    "img": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/67b91943d821392f194081e7_Privy_banner.webp"
+  },
+  {
+    "name": "Proof-of-Skill",
+    "twitter": "https://x.com/proofofskill",
+    "url": "https://proofofskill.org",
+    "img": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/67cb75a516c2025d35bf2f11_group_48096052.png"
+  },
+  {
+    "name": "Puffer Finance",
+    "twitter": "https://x.com/Puffer_Finance",
+    "url": "https://linktr.ee/puffer_finance",
+    "img": "https://cdn.prod.website-files.com/plugins/Basic/assets/placeholder.60f9b1840c.svg"
+  },
+  {
+    "name": "PumpBTC",
+    "twitter": "https://x.com/Pumpbtcxyz",
+    "url": "https://testnet.pumpbtc.xyz/",
+    "img": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/67b91e8c6561ec94bfa97fdb_pumpBTC%20banner.webp"
+  },
+  {
+    "name": "Purps",
+    "twitter": "https://x.com/PurpsExchange",
+    "url": "https://www.purps.xyz/",
+    "img": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/682acfc9a3a8f6e2335cda9b_photo_2025-05-08_23-05-50_720.webp"
+  },
+  {
+    "name": "Pyth Network",
+    "twitter": "",
+    "url": "",
+    "img": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/67b91950d821392f194088b9_Pyth%20Network_banner.webp"
+  },
+  {
+    "name": "QuickNode",
+    "twitter": "https://x.com/QuickNode",
+    "url": "https://www.quicknode.com/",
+    "img": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/67b9195ac1a6a111c7214f9a_QuickNode_banner.webp"
+  },
+  {
+    "name": "Rabble",
+    "twitter": "https://x.com/0xRabble",
+    "url": "https://app.rabble.pro/?utm=MONAD",
+    "img": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/67b9196afc64a6c6e43d5a95_Rabble_banner.webp"
+  },
+  {
+    "name": "RareBetSports",
+    "twitter": "https://x.com/RareBetSports",
+    "url": "https://rarelink.rarebetsports.io/",
+    "img": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/67b9197348ee25af9be22afd_RareBetSports_banner.webp"
+  },
+  {
+    "name": "Rayvo",
+    "twitter": "https://x.com/rayvo_xyz",
+    "url": "https://rayvo.gitbook.io/rayvo",
+    "img": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/6878157170c067c1a9fcaff1_rayvo%201500x500.webp"
+  },
+  {
+    "name": "RedStone",
+    "twitter": "https://x.com/redstone_defi",
+    "url": "https://www.redstone.finance/",
+    "img": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/67b9197d89130464ea445896_RedStone_banner.webp"
+  },
+  {
+    "name": "Redbrick",
+    "twitter": "https://x.com/RedbrickLand",
+    "url": "https://redbrick.land/monad",
+    "img": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/67b9198f6b6cb4307d56797d_Redbrick_banner.webp"
+  },
+  {
+    "name": "Relend Network",
+    "twitter": "https://x.com/relend_network",
+    "url": "https://relend.network/",
+    "img": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/6883e31b7521ac0c5bd871a9_relend-monad-banner.webp"
+  },
+  {
+    "name": "Renzo",
+    "twitter": "https://x.com/RenzoProtocol",
+    "url": "https://www.renzoprotocol.com/",
+    "img": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/67b919988330a99a8711b6b8_Renzo_banner.webp"
+  },
+  {
+    "name": "Reown",
+    "twitter": "https://x.com/reown_",
+    "url": "https://reown.com/",
+    "img": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/67b919a83a3a575251c71b64_Reown_banner.webp"
+  },
+  {
+    "name": "Reservoir",
+    "twitter": "https://x.com/reservoir0x",
+    "url": "https://reservoir.tools/",
+    "img": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/67b919b4779fac86351ec334_Reservoir_banner.webp"
+  },
+  {
+    "name": "RgbClash",
+    "twitter": "https://x.com/rgbclash_xyz",
+    "url": "https://rgbclash.xyz",
+    "img": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/683ec5094a13f49335363bed_photo_2025-06-03_17.09.50.webp"
+  },
+  {
+    "name": "Rhino.fi",
+    "twitter": "https://x.com/rhinofi",
+    "url": "https://rhino.fi/",
+    "img": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/67b919bc5d51b1bcd91ece20_Rhino.fi_banner.webp"
+  },
+  {
+    "name": "Rubic",
+    "twitter": "",
+    "url": "https://testnet.rubic.exchange/",
+    "img": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/67b919c6c3ad7da1ddf5ab36_Rubic_banner.webp"
+  },
+  {
+    "name": "Rug Rumble",
+    "twitter": "",
+    "url": "",
+    "img": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/67b919d06b6cb4307d569c60_Rug%20Rumble_banner.webp"
+  },
+  {
+    "name": "Rumi",
+    "twitter": "https://x.com/RumiLabs_io",
+    "url": "https://rumilabs.io/",
+    "img": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/6878156220a133701406a3ef_rumi%201500x500%20(1).webp"
+  },
+  {
+    "name": "SQD",
+    "twitter": "https://x.com/helloSQD",
+    "url": "https://www.sqd.ai",
+    "img": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/67b919e36b6cb4307d56a631_SQD_banner.webp"
+  },
+  {
+    "name": "STAGE.fun",
+    "twitter": "https://x.com/stagedotfun",
+    "url": "https://stage.fun/",
+    "img": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/6875106c949bec27002cd3d7_STAGE-1500x500.png"
+  },
+  {
+    "name": "SafePal",
+    "twitter": "https://x.com/iSafePal",
+    "url": "https://www.safepal.com/",
+    "img": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/67c4e72cd927573fcfe57461_safepal%20banner.webp"
+  },
+  {
+    "name": "Scatter.art",
+    "twitter": "https://x.com/scatter_art",
+    "url": "https://www.scatter.art/",
+    "img": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/6883f7a81cd24a3b861310a2_scatter%20banner.webp"
+  },
+  {
+    "name": "Sela Network",
+    "twitter": "https://x.com/SelaNetwork",
+    "url": "https://www.selanetwork.io/",
+    "img": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/68966d48ecb4f9b082c64212_sela%20banner.webp"
+  },
+  {
+    "name": "Sherpa",
+    "twitter": "https://x.com/sherpa_trade",
+    "url": "https://app.sherpa.trade/lander",
+    "img": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/6888280b254c67fbfb86411e_sherpa_banner-offset.webp"
+  },
+  {
+    "name": "Showdown",
+    "twitter": "https://x.com/showdown_gg",
+    "url": "https://showdown.win/",
+    "img": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/67b919f75d51b1bcd91ef730_Showdown_banner.webp"
+  },
+  {
+    "name": "Sidekick",
+    "twitter": "",
+    "url": "https://sidekick.fans/",
+    "img": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/67b91a019142d5944649063c_Sidekick_banner.webp"
+  },
+  {
+    "name": "SkyTrade",
+    "twitter": "https://x.com/SkyTradeNetwork",
+    "url": "https://sky.trade",
+    "img": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/67b91a2d5d51b1bcd91f2304_SkyTrade_banner.webp"
+  },
+  {
+    "name": "Slogain",
+    "twitter": "https://x.com/SlogainDaily",
+    "url": "https://monad.slogain.gg/",
+    "img": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/67b91a361e79a03f6da8b61f_Slogain_banner.webp"
+  },
+  {
+    "name": "Solv Protocol",
+    "twitter": "https://x.com/SolvProtocol",
+    "url": "https://solv.finance/",
+    "img": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/67c4e882e9484a5cfe524044_solv%20banner.webp"
+  },
+  {
+    "name": "Spine Finance",
+    "twitter": "https://x.com/spineprotocol",
+    "url": "https://spine.finance/",
+    "img": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/67b91a3ef9180e8745b654d2_Spine%20Finance_banner.webp"
+  },
+  {
+    "name": "Sprout",
+    "twitter": "https://x.com/sproutfi_xyz",
+    "url": "https://www.sproutfi.xyz/",
+    "img": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/68fe71a688d8e714a821b7f7_1500x500.webp"
+  },
+  {
+    "name": "StakeStone",
+    "twitter": "https://x.com/stake_stone",
+    "url": "https://stakestone.io/",
+    "img": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/67b91a7c6e9a2707acfe54e5_StakeStone_banner.webp"
+  },
+  {
+    "name": "Stargate",
+    "twitter": "https://x.com/StargateFinance",
+    "url": "https://stargate.finance/",
+    "img": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/67b91a8ef6998cf2420a4cfe_Stargate_banner.webp"
+  },
+  {
+    "name": "StationX",
+    "twitter": "https://x.com/stationxnetwork",
+    "url": "https://stationx.network",
+    "img": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/6883e31bd059f065788130ee_stnx_banner.webp"
+  },
+  {
+    "name": "Stork",
+    "twitter": "https://x.com/StorkOracle",
+    "url": "https://www.stork.network/",
+    "img": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/67b91a96e0429ca00f5326ce_Stork_banner.webp"
+  },
+  {
+    "name": "SubQuery",
+    "twitter": "",
+    "url": "https://subquery.network/",
+    "img": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/67b91a9e779fac86351f6840_SubQuery_banner.webp"
+  },
+  {
+    "name": "Sumer",
+    "twitter": "",
+    "url": "https://app.sumer.money",
+    "img": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/67b91aab8f00b5fa4ab976d9_Sumer_banner.webp"
+  },
+  {
+    "name": "Sunscreen",
+    "twitter": "https://x.com/sunscreentech",
+    "url": "https://sunscreen.tech/",
+    "img": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/6863135aaa6db2d22d376c07_Frame-1.webp"
+  },
+  {
+    "name": "Swaap",
+    "twitter": "https://x.com/SwaapFinance",
+    "url": "https://www.swaap.finance/",
+    "img": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/67b91ab47095d061fc6bfc21_Swaap_banner.webp"
+  },
+  {
+    "name": "Switchboard",
+    "twitter": "https://x.com/switchboardxyz",
+    "url": "https://switchboard.xyz",
+    "img": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/67b91abc779fac86351f7774_Switchboard_banner.webp"
+  },
+  {
+    "name": "Swyrl Finance",
+    "twitter": "https://x.com/SwyrlFi",
+    "url": "https://swyrl.finance/",
+    "img": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/6883e31a5f263ff733767df3_swyrl_banner-2-.webp"
+  },
+  {
+    "name": "T3rn",
+    "twitter": "https://x.com/t3rn_io",
+    "url": "https://t3rn.io/",
+    "img": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/680607b149323df089f54b50_t3rn.webp"
+  },
+  {
+    "name": "Tadle",
+    "twitter": "https://x.com/tadle_com",
+    "url": "https://tadle.com/en",
+    "img": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/67b91add84cbdc367d66fd4c_Tadle_banner.webp"
+  },
+  {
+    "name": "Talentum",
+    "twitter": "https://x.com/TalentumID",
+    "url": "https://monad.talentum.id/",
+    "img": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/67b91ae63a3a575251c7dcd3_Talentum_banner.webp"
+  },
+  {
+    "name": "Tally",
+    "twitter": "https://x.com/tallyxyz",
+    "url": "https://www.tally.xyz/",
+    "img": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/67b91af16b6cb4307d576c5c_Tally_banner.webp"
+  },
+  {
+    "name": "Tarobase",
+    "twitter": "https://x.com/0xtarobase",
+    "url": "https://tarobase.com",
+    "img": "https://cdn.prod.website-files.com/plugins/Basic/assets/placeholder.60f9b1840c.svg"
+  },
+  {
+    "name": "Terminal 3",
+    "twitter": "https://x.com/terminal3io",
+    "url": "https://www.terminal3.io/",
+    "img": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/67eff2c6563c6021491d9617_T3-Banner.webp"
+  },
+  {
+    "name": "Tezza Poker",
+    "twitter": "https://x.com/tezzapoker",
+    "url": "https://t.me/playtezzapoker_bot",
+    "img": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/682f7cac4788b984140dfb05_tezza%20banner.webp"
+  },
+  {
+    "name": "The Graph",
+    "twitter": "https://x.com/graphprotocol",
+    "url": "https://thegraph.com/",
+    "img": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/67b91affb9188e59b9aa71a6_The%20Graph_banner.webp"
+  },
+  {
+    "name": "The Vape Labs",
+    "twitter": "https://x.com/thevapelabs",
+    "url": "https://app.thevapelabs.io",
+    "img": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/67b91b0ac0e02b5b7bf43abb_The%20Vape%20Labs_banner.webp"
+  },
+  {
+    "name": "Thirdweb",
+    "twitter": "https://x.com/thirdweb",
+    "url": "https://thirdweb.com/",
+    "img": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/67b91b146e9a2707acfebf17_Thirdweb_banner.webp"
+  },
+  {
+    "name": "Timelock",
+    "twitter": "https://x.com/Timelock_Trade",
+    "url": "https://www.timelock.trade/",
+    "img": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/68781558a496d6d0155a2d82_timelock%201500x500%20(1).webp"
+  },
+  {
+    "name": "Timeswap",
+    "twitter": "https://x.com/TimeswapLabs",
+    "url": "https://timeswap.io/",
+    "img": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/67b91b206e9a2707acfec9fd_Timeswap_banner.webp"
+  },
+  {
+    "name": "TokenPocket",
+    "twitter": "",
+    "url": "https://www.tokenpocket.pro/",
+    "img": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/67bebce3648677a1ce11c01c_token%20pocket%20banner.webp"
+  },
+  {
+    "name": "TownSquare",
+    "twitter": "https://x.com/TownSquarexyz",
+    "url": "https://www.townsq.xyz/",
+    "img": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/685c77d9b431fd4907b839da_townsequare%20cover.webp"
+  },
+  {
+    "name": "Tread.fi",
+    "twitter": "https://x.com/tread_fi",
+    "url": "",
+    "img": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/67b91b306e9a2707acfed0ec_Tread.fi_banner.webp"
+  },
+  {
+    "name": "Triton One",
+    "twitter": "https://x.com/triton_one",
+    "url": "https://triton.one",
+    "img": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/67b91b386e9a2707acfed6da_Triton%20One_banner.webp"
+  },
+  {
+    "name": "Turnkey",
+    "twitter": "https://x.com/turnkeyhq",
+    "url": "https://www.turnkey.com/",
+    "img": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/67b91b4189130464ea45b135_Turnkey_banner.webp"
+  },
+  {
+    "name": "TypeX",
+    "twitter": "https://x.com/TypeXKeyboard",
+    "url": "https://typex.cc/",
+    "img": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/6878164627c80485c2deaaed_typex%20background%201500x500%20(1).webp"
+  },
+  {
+    "name": "Uniswap",
+    "twitter": "https://x.com/Uniswap",
+    "url": "https://app.uniswap.org/",
+    "img": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/67b91b5ec0e02b5b7bf473df_Uniswap%20Wallet_banner.webp"
+  },
+  {
+    "name": "Uniswap Wallet",
+    "twitter": "https://x.com/Uniswap",
+    "url": "https://wallet.uniswap.org",
+    "img": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/67b91b5ec0e02b5b7bf473df_Uniswap%20Wallet_banner.webp"
+  },
+  {
+    "name": "Unmarshal",
+    "twitter": "https://x.com/unmarshalAI",
+    "url": "https://unmarshal.ai",
+    "img": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/67b91b7c0238916836891d8d_Unmarshal_banner.webp"
+  },
+  {
+    "name": "Upfloor",
+    "twitter": "https://x.com/upfloorco",
+    "url": "https://upfloor.co",
+    "img": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/690e732c4cc5556d9b901a74_Upfloor.co_3.webp"
+  },
+  {
+    "name": "Valor Quest",
+    "twitter": "https://x.com/valorquestgame",
+    "url": "https://t.me/ValorQuestBot",
+    "img": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/6834a1e83865425985bf4d07_6834a1646afb796987d92ca0_Banner.webp"
+  },
+  {
+    "name": "Web3Auth",
+    "twitter": "https://x.com/web3auth",
+    "url": "https://web3auth.io/",
+    "img": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/67b91b9183477f8bd77fc9b5_Web3Auth_banner.webp"
+  },
+  {
+    "name": "Winks.fun",
+    "twitter": "",
+    "url": "https://www.winks.fun",
+    "img": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/67b91ba473996311555169aa_Winks.fun_banner.webp"
+  },
+  {
+    "name": "Wonad",
+    "twitter": "https://x.com/thiswonad",
+    "url": "https://www.thiswonad.xyz/",
+    "img": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/6883e31ceeab028ff508564d_IMG_4396.webp"
+  },
+  {
+    "name": "Wormhole",
+    "twitter": "https://x.com/wormhole",
+    "url": "https://wormhole.com/",
+    "img": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/67b91bb483477f8bd77fdb6c_Wormhole_banner.webp"
+  },
+  {
+    "name": "X2C",
+    "twitter": "https://x.com/PlayFlappyTrump",
+    "url": "https://x2c.fun/",
+    "img": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/6893d9cb3aa0c3e58d29e9c9_x2c-banner.webp"
+  },
+  {
+    "name": "XL",
+    "twitter": "https://x.com/xldotfun",
+    "url": "https://testnet.xl.fun/monad",
+    "img": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/67b91bc08f00b5fa4aba1835_XL_banner.webp"
+  },
+  {
+    "name": "Yamata",
+    "twitter": "https://x.com/yamataexchange",
+    "url": "https://yamata.io",
+    "img": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/68ceb78045702f6c824d809c_xbanner.webp"
+  },
+  {
+    "name": "YieldKingZ",
+    "twitter": "https://x.com/Yieldkingz",
+    "url": "https://test-monad.yieldkingz.io/",
+    "img": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/67bd6833bb5faf1829906fb5_yieldkingz.webp"
+  },
+  {
+    "name": "Zapry",
+    "twitter": "https://x.com/0xZapry",
+    "url": "https://www.zapry.net/",
+    "img": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/67c4e8387809fd04396e8084_zapry.webp"
+  },
+  {
+    "name": "Zerion",
+    "twitter": "https://x.com/zerion",
+    "url": "https://zerion.io/api",
+    "img": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/67b91be4d9acff489824abbf_Zerion_banner.webp"
+  },
+  {
+    "name": "ZeroDev",
+    "twitter": "https://x.com/zerodev_app",
+    "url": "https://zerodev.app",
+    "img": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/67b91bee11a6f589667eefe5_ZeroDev_banner.webp"
+  },
+  {
+    "name": "Zona",
+    "twitter": "https://x.com/zona_io",
+    "url": "https://www.zona.finance/",
+    "img": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/67c4e6f2fb2041fb4c035f17_zona.webp"
+  },
+  {
+    "name": "dFusion AI",
+    "twitter": "https://x.com/dfusionai",
+    "url": "https://www.dfusion.ai",
+    "img": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/68cebe9400e8d42c392200cd_dfusion%20ai%20background.webp"
+  }
+]

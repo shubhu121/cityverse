@@ -246,21 +246,70 @@ class GeneratorItem_CityBlock {
 class Advert {
   constructor(x, y, z, geo, is_tower) {
 
-    if (is_tower) {
-      this.adsMats = ['ads_large_01','ads_large_02','ads_large_03','ads_large_04','ads_large_05'];
-    }
-    else {
-      this.adsMats = ['ads_01','ads_02','ads_03','ads_04','ads_05'];
-    }
-    let mat = window.game.assets.getMaterial(this.adsMats[Math.floor(Math.random()*this.adsMats.length)]);
+    // Use Monad projects if available
+    if (window.game.projectManager && window.game.projectManager.loaded && window.game.projectManager.getProjectCount() > 0) {
+      
+      // Get project index (sequential assignment)
+      if (!Advert.projectCounter) {
+        Advert.projectCounter = 0;
+        console.log('🎯 Advert: Starting Monad billboard system');
+      }
+      const projectIndex = Advert.projectCounter % window.game.projectManager.getProjectCount();
+      Advert.projectCounter++;
+      
+      const project = window.game.projectManager.getProject(projectIndex);
+      const projectMat = window.game.projectManager.getProjectMaterial(projectIndex);
+      
+      if (Advert.projectCounter <= 3) {
+        console.log('📱 Billboard #' + Advert.projectCounter + ':', project.name, 'Material:', projectMat ? 'LOADED' : 'pending...');
+      }
+      
+      // Use project material if loaded, otherwise fallback to default
+      let mat = projectMat;
+      if (!mat) {
+        if (is_tower) {
+          this.adsMats = ['ads_large_01','ads_large_02','ads_large_03','ads_large_04','ads_large_05'];
+        }
+        else {
+          this.adsMats = ['ads_01','ads_02','ads_03','ads_04','ads_05'];
+        }
+        mat = window.game.assets.getMaterial(this.adsMats[Math.floor(Math.random()*this.adsMats.length)]);
+      }
+      
+      this.mesh = new Mesh( geo, mat );
+      this.mesh.position.set(x,y,z);
+      
+      // Store project metadata on mesh for click interaction
+      this.mesh.userData.isMonadProject = true;
+      this.mesh.userData.project = project;
+      
+      window.game.scene.add( this.mesh );
+      
+      // Add to interactive objects list for raycasting
+      if (window.game.interactiveObjects) {
+        window.game.interactiveObjects.push(this.mesh);
+      }
+      
+      this.switches = false; // Don't switch project banners
+      
+    } else {
+      // Fallback to original behavior
+      if (is_tower) {
+        this.adsMats = ['ads_large_01','ads_large_02','ads_large_03','ads_large_04','ads_large_05'];
+      }
+      else {
+        this.adsMats = ['ads_01','ads_02','ads_03','ads_04','ads_05'];
+      }
+      let mat = window.game.assets.getMaterial(this.adsMats[Math.floor(Math.random()*this.adsMats.length)]);
 
-    this.mesh = new Mesh( geo, mat );
-    this.mesh.position.set(x,y,z);
-    window.game.scene.add( this.mesh );
-    
-    this.interval = 200+Math.random()*800;
-    this.counter = Math.random()*this.interval;
-    this.switches = Math.random()<0.5;
+      this.mesh = new Mesh( geo, mat );
+      this.mesh.position.set(x,y,z);
+      window.game.scene.add( this.mesh );
+      
+      this.interval = 200+Math.random()*800;
+      this.counter = Math.random()*this.interval;
+      this.switches = Math.random()<0.5;
+    }
 
   }
   remove() {
