@@ -126,7 +126,7 @@ class GeneratorItem_CityBlock {
           this.meshesCollid.push(mesh);
 
           if (adsType!=null) {
-            let ad = new Advert( this.x+xOff, 0, this.z+zOff, window.game.assets.getModel(adsType), false );
+            let ad = new Advert( this.x+xOff, 0, this.z+zOff, window.game.assets.getModel(adsType), false, 160*scale );
             ad.mesh.scale.set(1, scale, 1);
             ad.mesh.rotateY(-rotate*Math.PI/180);
             this.updateables.push(ad);
@@ -185,7 +185,7 @@ class GeneratorItem_CityBlock {
       this.meshesCollid.push(mesh);
 
       if (adsType!=null) {
-        let ad = new Advert( this.x+xOff, 0, this.z+zOff, window.game.assets.getModel(adsType), isTower );
+        let ad = new Advert( this.x+xOff, 0, this.z+zOff, window.game.assets.getModel(adsType), isTower, 250*scale );
         ad.mesh.scale.set(1, scale, 1);
         ad.mesh.rotateY(-rotate*Math.PI/180);
         this.updateables.push(ad);
@@ -244,7 +244,7 @@ class GeneratorItem_CityBlock {
 // building decorations
 
 class Advert {
-  constructor(x, y, z, geo, is_tower) {
+  constructor(x, y, z, geo, is_tower, buildingHeight = 200) {
 
     // Use Monad projects if available
     if (window.game.projectManager && window.game.projectManager.loaded && window.game.projectManager.getProjectCount() > 0) {
@@ -288,6 +288,11 @@ class Advert {
       // Add to interactive objects list for raycasting
       if (window.game.interactiveObjects) {
         window.game.interactiveObjects.push(this.mesh);
+      }
+      
+      // Add billboard indicator (arrow + ring above building)
+      if (window.game.billboardIndicatorManager) {
+        window.game.billboardIndicatorManager.addIndicator(this.mesh, buildingHeight);
       }
       
       this.switches = false; // Don't switch project banners

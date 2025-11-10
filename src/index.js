@@ -30,6 +30,8 @@ import { AssetManager } from './classes/AssetManager.js';
 import { Shaders } from './classes/Shaders.js';
 import { ProjectManager } from './classes/ProjectManager.js';
 import { ProximityDetector } from './classes/ProximityDetector.js';
+import { Minimap } from './classes/Minimap.js';
+import { BillboardIndicatorManager } from './classes/BillboardIndicator.js';
 
 import { Player } from './classes/Player.js';
 import { PlayerCar } from './classes/PlayerCar.js';
@@ -334,6 +336,14 @@ class Game {
     this.proximityDetector = new ProximityDetector();
     console.log('Game: Proximity detector initialized');
 
+    // Initialize minimap
+    this.minimap = new Minimap();
+    console.log('Game: Minimap initialized');
+
+    // Initialize billboard indicator manager
+    this.billboardIndicatorManager = new BillboardIndicatorManager();
+    console.log('Game: Billboard indicator manager initialized');
+
   }
 
   initAudio() {
@@ -482,6 +492,17 @@ class Game {
       this.proximityDetector.update(this.player.body.position);
     }
 
+    // Update minimap with player position and camera rotation (mouse look)
+    if (this.minimap && this.player && this.player.body) {
+      const playerRotation = this.player.camera ? this.player.camera.rotation.y : 0;
+      this.minimap.update(this.player.body.position, playerRotation);
+    }
+
+    // Update billboard indicators
+    if (this.billboardIndicatorManager && this.player && this.player.body) {
+      this.billboardIndicatorManager.update(delta, this.player.body.position);
+    }
+
     // render
 
     this.composer.render();
@@ -575,6 +596,8 @@ class Game {
     // Show crosshair
     const crosshair = document.getElementById('crosshair');
     if (crosshair) crosshair.style.display = 'block';
+    // Show minimap
+    if (this.minimap) this.minimap.show();
   }
   onControlsUnlock() {
     this.playerController.enabled = false;
