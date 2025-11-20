@@ -32,6 +32,7 @@ import { ProjectManager } from './classes/ProjectManager.js';
 import { ProximityDetector } from './classes/ProximityDetector.js';
 import { Minimap } from './classes/Minimap.js';
 import { BillboardIndicatorManager } from './classes/BillboardIndicator.js';
+import { NearbyProjectsHUD } from './classes/NearbyProjectsHUD.js';
 
 import { Player } from './classes/Player.js';
 import { PlayerCar } from './classes/PlayerCar.js';
@@ -100,6 +101,7 @@ class Game {
 
     // Proximity detector for nearby projects
     this.proximityDetector = null;
+    this.nearbyHUD = null;
 
   }
 
@@ -344,6 +346,9 @@ class Game {
     this.billboardIndicatorManager = new BillboardIndicatorManager();
     console.log('Game: Billboard indicator manager initialized');
 
+    this.nearbyHUD = new NearbyProjectsHUD();
+    console.log('Game: NearbyProjectsHUD initialized');
+
   }
 
   initAudio() {
@@ -503,6 +508,10 @@ class Game {
       this.billboardIndicatorManager.update(delta, this.player.body.position);
     }
 
+    if (this.nearbyHUD && this.proximityDetector) {
+      this.nearbyHUD.update(this.proximityDetector.nearbyProjects);
+    }
+
     // render
 
     this.composer.render();
@@ -598,6 +607,7 @@ class Game {
     if (crosshair) crosshair.style.display = 'block';
     // Show minimap
     if (this.minimap) this.minimap.show();
+    if (this.nearbyHUD) this.nearbyHUD.show();
   }
   onControlsUnlock() {
     this.playerController.enabled = false;
@@ -607,6 +617,7 @@ class Game {
     // Hide crosshair
     const crosshair = document.getElementById('crosshair');
     if (crosshair) crosshair.style.display = 'none';
+    if (this.nearbyHUD) this.nearbyHUD.hide();
   }
 
   onMouseMove(event) {
