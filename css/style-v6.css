@@ -1,11 +1,11 @@
 :root {
-  --terminalbg: #26004b;
-  --terminalprimary: #00fff7;
-  --terminalprimarydark: #008581;
-  --terminalsecondary: #ff00ff;
-  --terminalsecondarydark: #830083;
-  --terminaltertiary: #00ff95;
-  --terminallight: #f3e3ff;
+  --terminalbg: #1a0033;
+  --terminalprimary: #6b9bd1;
+  --terminalprimarydark: #3a5a7a;
+  --terminalsecondary: #a47bb8;
+  --terminalsecondarydark: #5a4064;
+  --terminaltertiary: #7cb3a0;
+  --terminallight: #c9b8d4;
 }
 
 * {
@@ -34,44 +34,44 @@ body {
 
 .c1 {
   color: var(--terminalprimary);
-  text-shadow: 0 0 5px var(--terminalprimary), 0 0 25px var(--terminalprimary);
+  text-shadow: 0 0 3px var(--terminalprimary), 0 0 8px var(--terminalprimary);
 }
 .c2 {
   color: var(--terminalsecondary);
-  text-shadow: 0 0 5px var(--terminalsecondary), 0 0 25px var(--terminalsecondary);
+  text-shadow: 0 0 3px var(--terminalsecondary), 0 0 8px var(--terminalsecondary);
 }
 .c3 {
   color: var(--terminaltertiary);
-  text-shadow: 0 0 5px var(--terminaltertiary), 0 0 25px var(--terminaltertiary);
+  text-shadow: 0 0 3px var(--terminaltertiary), 0 0 8px var(--terminaltertiary);
 }
 .c4 {
   color: var(--terminallight);
-  text-shadow: 0 0 5px var(--terminallight), 0 0 25px var(--terminallight);
+  text-shadow: 0 0 3px var(--terminallight), 0 0 8px var(--terminallight);
 }
 #cursor {
   color: var(--terminallight);
-  text-shadow: 0 0 5px var(--terminallight), 0 0 25px var(--terminallight);
+  text-shadow: 0 0 3px var(--terminallight), 0 0 8px var(--terminallight);
 }
 
 .g1 {
-  color: #fe435f;
-  text-shadow: 0 0 5px #fe435f, 0 0 25px #fe435f;
+  color: #b87a8a;
+  text-shadow: 0 0 3px #b87a8a, 0 0 8px #b87a8a;
 }
 .g2 {
-  color: #fd308e;
-  text-shadow: 0 0 5px #fd308e, 0 0 25px #fd308e;
+  color: #b36b9a;
+  text-shadow: 0 0 3px #b36b9a, 0 0 8px #b36b9a;
 }
 .g3 {
-  color: #e531b5;
-  text-shadow: 0 0 5px #e531b5, 0 0 25px #e531b5;
+  color: #a56daa;
+  text-shadow: 0 0 3px #a56daa, 0 0 8px #a56daa;
 }
 .g4 {
-  color: #a936db;
-  text-shadow: 0 0 5px #a936db, 0 0 25px #a936db;
+  color: #9070b8;
+  text-shadow: 0 0 3px #9070b8, 0 0 8px #9070b8;
 }
 .g5 {
-  color: #653bf7;
-  text-shadow: 0 0 5px #653bf7, 0 0 25px #653bf7;
+  color: #7a74c5;
+  text-shadow: 0 0 3px #7a74c5, 0 0 8px #7a74c5;
 }
 
 #blocker {
