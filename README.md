@@ -1,8 +1,6 @@
-# SynthCity - An Infinite Procedural Cyberpunk City
+# MonCity - An Infinite Procedural City to discover Monad Ecosystem
 
-SynthCity is an interactive WebGL experience built with [Three.js](https://threejs.org/). Sit back and relax while autopilot takes you for a ride, take the wheel and drive, or explore the endless world in freeroam mode - all while enjoying a curated synthwave playlist.
-
-![Screenshot](https://jeff-beene.com/synthcity/screenshots/readme.jpg)
+MonCity is an interactive WebGL experience built with [Three.js](https://threejs.org/). Sit back and relax while autopilot takes you for a ride, take the wheel and drive, or explore the endless world in freeroam mode - all while enjoying a curated synthwave playlist and discover monad ecosystem.
 
 ## Setup
 
