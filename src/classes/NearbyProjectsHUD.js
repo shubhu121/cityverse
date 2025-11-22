@@ -1,9 +1,8 @@
 class NearbyProjectsHUD {
   constructor() {
     this.container = null;
-    this.titleEl = null;
-    this.listEl = null;
-    this.maxItems = 5;
+    this.contentEl = null;
+    this.nearestProject = null; // Store the nearest project for keyboard shortcuts
     this.create();
   }
 
@@ -15,60 +14,33 @@ class NearbyProjectsHUD {
       position: fixed;
       top: 20px;
       left: 20px;
-      width: 300px;
-      max-height: 320px;
-      overflow-y: auto;
-      background: rgba(10, 14, 26, 0.72);
-      border: 2px solid #00fff7;
-      border-radius: 4px;
-      box-shadow: 0 0 20px rgba(0, 255, 247, 0.25);
+      width: 280px;
+      background: rgba(10, 14, 26, 0.85);
+      border: 1px solid #00fff7;
+      border-left: 4px solid #00fff7;
+      box-shadow: 0 0 15px rgba(0, 255, 247, 0.15);
       font-family: 'Share Tech Mono', monospace;
       color: #00fff7;
-      text-shadow: 0 0 5px #00fff7;
       z-index: 110;
       display: none;
-      backdrop-filter: blur(6px);
+      backdrop-filter: blur(4px);
       pointer-events: auto;
+      padding: 15px;
     `;
 
-    // Header
-    const header = document.createElement('div');
-    header.style.cssText = `
-      padding: 8px 10px;
-      font-size: 0.8rem;
-      border-bottom: 1px solid rgba(0,255,247,0.35);
+    // Content container
+    const content = document.createElement('div');
+    content.style.cssText = `
       display: flex;
-      align-items: center;
+      flex-direction: column;
       gap: 8px;
     `;
-    const bullet = document.createElement('span');
-    bullet.textContent = '◆';
-    bullet.style.color = '#fd308e';
-    bullet.style.textShadow = '0 0 6px #fd308e';
 
-    const title = document.createElement('span');
-    title.textContent = 'NEARBY PROJECTS';
-    title.style.letterSpacing = '1px';
-
-    header.appendChild(bullet);
-    header.appendChild(title);
-
-    // List container
-    const list = document.createElement('div');
-    list.style.cssText = `
-      padding: 8px 10px;
-      font-size: 0.8rem;
-      line-height: 1.4;
-    `;
-
-    c.appendChild(header);
-    c.appendChild(list);
-
+    c.appendChild(content);
     document.body.appendChild(c);
 
     this.container = c;
-    this.titleEl = title;
-    this.listEl = list;
+    this.contentEl = content;
   }
 
   show() {
@@ -80,50 +52,75 @@ class NearbyProjectsHUD {
   }
 
   update(nearbyProjects) {
-    if (!this.listEl) return;
+    if (!this.contentEl) return;
 
-    // If nothing nearby, show a subtle scanning message
+    // If nothing nearby, hide the box
     if (!nearbyProjects || nearbyProjects.length === 0) {
-      this.listEl.innerHTML = `>> Scanning...`;
+      this.nearestProject = null;
+      this.hide();
       return;
     }
 
-    const items = nearbyProjects.slice(0, this.maxItems);
+    // Show the box if hidden
+    if (this.container.style.display === 'none') {
+      this.show();
+    }
 
-    const html = items.map(({ project, distance }) => {
-      const name = project?.name || 'Unknown';
-      const url = project?.url && project.url.trim() !== '' ? project.url : null;
-      const x = project?.twitter && project.twitter.trim() !== '' ? project.twitter : null;
+    // Get the nearest project
+    const nearest = nearbyProjects[0];
+    const { project, distance } = nearest;
 
-      // Color by distance
-      let color = '#fe435f'; // close
-      if (distance > 200) color = '#a936db';
-      else if (distance > 100) color = '#fd308e';
+    // Store for keyboard shortcuts
+    this.nearestProject = project;
 
-      const openLink = url
-        ? `<a href="${url}" target="_blank" rel="noopener" style="color:#00ff95;text-shadow:0 0 6px #00ff95; text-decoration:none;">[open]</a>`
-        : `<span style="color:rgba(255,255,255,0.35)">[open]</span>`;
+    const name = project?.name || 'Unknown Project';
+    const url = project?.url && project.url.trim() !== '' ? project.url : null;
+    const x = project?.twitter && project.twitter.trim() !== '' ? project.twitter : null;
 
-      const xLink = x
-        ? `<a href="${x}" target="_blank" rel="noopener" style="color:#ff00ff;text-shadow:0 0 6px #ff00ff; text-decoration:none;">[x]</a>`
-        : `<span style="color:rgba(255,255,255,0.35)">[x]</span>`;
+    let html = `
+      <div style="font-size: 0.75rem; color: rgba(0,255,247,0.6); margin-bottom: 2px;">NEARBY PROJECT [${distance}m]</div>
+      <div style="font-size: 1.1rem; font-weight: bold; color: #fff; text-shadow: 0 0 5px rgba(255,255,255,0.5); margin-bottom: 8px;">${name}</div>
+    `;
 
-      return `
-        <div style="display:flex; align-items:center; justify-content:space-between; gap:8px; padding:6px 0; border-bottom:1px dashed rgba(0,255,247,0.15);">
-          <div style="display:flex; align-items:center; gap:8px; min-width:0;">
-            <span style="color:${color}; text-shadow: 0 0 6px ${color};">⬤</span>
-            <span title="${name}" style="color:#f3e3ff; text-shadow:0 0 6px #f3e3ff; overflow:hidden; text-overflow:ellipsis; white-space:nowrap; max-width:150px;">${name}</span>
-          </div>
-          <div style="display:flex; align-items:center; gap:10px; flex-shrink:0;">
-            <span style="color:#00fff7;opacity:0.9;">${distance}m</span>
-            ${openLink}
-            ${xLink}
-          </div>
+    if (url) {
+      html += `
+        <div style="display: flex; align-items: center; gap: 6px;">
+          <span style="color: #00fff7;">></span>
+          <a href="${url}" target="_blank" rel="noopener" style="color: #00fff7; text-decoration: none; border-bottom: 1px dotted #00fff7; transition: all 0.2s;">
+            Website <span style="color: rgba(0,255,247,0.5); font-size: 0.8rem;">[O]</span>
+          </a>
         </div>
       `;
-    }).join('');
+    }
 
-    this.listEl.innerHTML = html;
+    if (x) {
+      html += `
+        <div style="display: flex; align-items: center; gap: 6px;">
+          <span style="color: #fd308e;">></span>
+          <a href="${x}" target="_blank" rel="noopener" style="color: #fd308e; text-decoration: none; border-bottom: 1px dotted #fd308e; transition: all 0.2s;">
+            X (Twitter) <span style="color: rgba(253,48,142,0.5); font-size: 0.8rem;">[X]</span>
+          </a>
+        </div>
+      `;
+    }
+
+    this.contentEl.innerHTML = html;
+  }
+
+  openWebsite() {
+    if (this.nearestProject && this.nearestProject.url && this.nearestProject.url.trim() !== '') {
+      window.open(this.nearestProject.url, '_blank');
+      return true;
+    }
+    return false;
+  }
+
+  openTwitter() {
+    if (this.nearestProject && this.nearestProject.twitter && this.nearestProject.twitter.trim() !== '') {
+      window.open(this.nearestProject.twitter, '_blank');
+      return true;
+    }
+    return false;
   }
 }
 

@@ -10,7 +10,7 @@ class ProximityDetector {
 
   update(playerPosition) {
     this.frameCounter++;
-    
+
     // Only update every N frames for performance
     if (this.frameCounter % this.updateInterval !== 0) {
       return;
@@ -32,9 +32,9 @@ class ProximityDetector {
           billboard.position.y,
           billboard.position.z
         );
-        
+
         const distance = playerPosition.distanceTo(tempVec);
-        
+
         if (distance <= this.maxDistance) {
           this.nearbyProjects.push({
             project: billboard.userData.project,
@@ -52,34 +52,34 @@ class ProximityDetector {
     this.nearbyProjects = this.nearbyProjects.slice(0, 5);
 
     // Update UI
-    this.updateUI();
+    // this.updateUI();
   }
 
-  updateUI() {
-    const resourcesPanel = document.getElementById('resources');
-    if (!resourcesPanel) return;
+  // updateUI() {
+  //   const resourcesPanel = document.getElementById('resources');
+  //   if (!resourcesPanel) return;
 
-    if (this.nearbyProjects.length === 0) {
-      resourcesPanel.innerHTML = '>> Scanning for Monad projects...';
-      return;
-    }
+  //   if (this.nearbyProjects.length === 0) {
+  //     resourcesPanel.innerHTML = '>> Scanning for Monad projects...';
+  //     return;
+  //   }
 
-    let html = '>> <span class="g1">NEARBY MONAD PROJECTS</span><br><br>';
-    
-    this.nearbyProjects.forEach((item, index) => {
-      const distanceUnits = item.distance + 'm';
-      const projectName = item.project.name || 'Unknown';
-      
-      // Color code by distance
-      let colorClass = 'g1'; // Green (close)
-      if (item.distance > 200) colorClass = 'g3';
-      else if (item.distance > 100) colorClass = 'g2';
-      
-      html += `<span class="${colorClass}">⬤</span> <span class="c2">${projectName}</span> <span class="c4">[${distanceUnits}]</span><br>`;
-    });
+  //   let html = '>> <span class="g1">NEARBY MONAD PROJECTS</span><br><br>';
 
-    resourcesPanel.innerHTML = html;
-  }
+  //   this.nearbyProjects.forEach((item, index) => {
+  //     const distanceUnits = item.distance + 'm';
+  //     const projectName = item.project.name || 'Unknown';
+
+  //     // Color code by distance
+  //     let colorClass = 'g1'; // Green (close)
+  //     if (item.distance > 200) colorClass = 'g3';
+  //     else if (item.distance > 100) colorClass = 'g2';
+
+  //     html += `<span class="${colorClass}">⬤</span> <span class="c2">${projectName}</span> <span class="c4">[${distanceUnits}]</span><br>`;
+  //   });
+
+  //   resourcesPanel.innerHTML = html;
+  // }
 
   getNearestProject() {
     return this.nearbyProjects.length > 0 ? this.nearbyProjects[0] : null;
